@@ -1,11 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign Up Form</title>
 </head>
+
 <body>
-    
+    <div class="sidebar">
+        <div class="odin-logo">
+            <img src="./img/odin-logo.png" alt="The Odin Project logo">
+            <h2>ODIN</h2>
+        </div>
+    </div>
+    <div class="main">
+        <h2>This is not a real online service! You know you need something like this in your life to help you realize
+            your deepest dreams. Sign up now to get started.</h2>
+        <h2>You <em>know</em> you want to.</h2>
+        <form action="#" method="post" id="sign-up-form">
+            <h2>Let's do this!</h2>
+            <div class="form-col">
+                <div class="form-element">
+                    <label for="first-name">First name</label>
+                    <input type="text" name="first-name" id="first-name">
+                </div>
+                <div class="form-element">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email">
+                </div>
+                <div class="form-element">
+                    <label for="pwd">Password</label>
+                    <input type="password" name="pwd" id="pwd">
+                </div>
+            </div>
+            <div class="form-col">
+                <div class="form-element">
+                    <label for="last-name">Last Name</label>
+                    <input type="text" name="last-name" id="last-name">
+                </div>
+                <div class="form-element">
+                    <label for="phone">Phone number</label>
+                    <input type="tel" name="phone" id="phone">
+                </div>
+                <div class="form-element">
+                    <label for="confirm-pwd">Confirm Password</label>
+                    <input type="password" name="confirm-pwd" id="confirm-pwd">
+                </div>
+            </div>
+        </form>
+        <button type="submit" form="sign-up-form">Create Account</button>
+        <p>Already have an account? <a href="">Log in</a></p>
+    </div>
 </body>
+
 </html>
