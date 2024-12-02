@@ -121,6 +121,7 @@ form h2 {
   outline: none;
   border: 1px solid var(--light-gray);
   border-radius: 4px;
+  background-color: var(--bg-color);
 }
 
 .form-element input:focus {
