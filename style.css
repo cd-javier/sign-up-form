@@ -1,10 +1,48 @@
 @import url(./modern-normalize.css);
 
 @font-face {
-    font-family: 'Norse';
-    src: url('./fonts/norse-bold-webfont.woff2') format('woff2'),
-         url('./fonts/norse-bold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+  font-family: "Norse";
+  src: url("./fonts/norse-bold-webfont.woff2") format("woff2"),
+    url("./fonts/norse-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
 
+:root {
+    --bg-color: #f9fafb
+}
+
+body {
+  background-color: var(--bg-color);
+
+  min-height: 100vh;
+  display: flex;
+}
+
+.sidebar {
+    flex: 1;
+
+    background: url(./img/image.jpg);
+    background-size: cover;
+}
+
+.odin-logo {
+    background-color: #0008;
+    font-family: "Norse", sans-serif;
+    color: #fff;
+    font-size: 4rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0;
+    margin-top: 300px;
+}
+
+.odin-logo img {
+    height: 100px;
+}
+
+.main {
+    flex: 2;
 }
